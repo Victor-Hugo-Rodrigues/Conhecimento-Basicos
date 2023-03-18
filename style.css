@@ -1,0 +1,91 @@
+/* Define as propriedades gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Define as propriedades do cabeçalho principal */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Define as propriedades do título do cabeçalho principal */
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Define as propriedades do conteúdo principal */
+  main {
+    margin: 20px;
+  }
+  
+  /* Define as propriedades do subtítulo do conteúdo principal */
+  main h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  /* Define as propriedades da tabela */
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  /* Define as propriedades do cabeçalho da tabela */
+  th {
+    background-color: #ddd;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Define as propriedades das células da tabela */
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Define as propriedades das linhas alternadas da tabela */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Define as propriedades da linha selecionada da tabela */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Define as propriedades do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Define as propriedades do link do rodapé */
+  footer a {
+    color: #fff;
+  }
+  
+  .casa{
+    color: purple;
+    margin-top: center;
+}
+table {
+    text-align: center;
+  }
+  
+  td, th {
+    text-align: center;
+  }
+  
